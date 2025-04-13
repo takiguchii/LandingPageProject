@@ -12,22 +12,22 @@
 
 <body class="bg-#f8f8ec flex flex-col min-h-screen">
 
+  <!-- Barra de Navegação -->
   <nav
-    class="fixed top-6 left-0 right-0 mx-auto max-w-xl bg-blue-800 text-white rounded-xl shadow-md p-4 flex justify-center z-50">
+    class="fixed top-20 left-0 right-0 mx-auto max-w-xl bg-cyan-700 text-white rounded-xl shadow-md p-4 flex justify-center z-50">
     <ul class="flex space-x-6">
-      <li><a href="#"><b>Projeto</b></a></li>
-      <li><a href="#"><b>Disciplina</b></a></li>
-      <li><a href="#"><b>Empresa</b></a></li>
-      <li><a href="#"><b>Membros do Grupo</b></a></li>
-      <li><a href="#"><b>Home</b></a></li>
+      <li><a href="#Project"><b>Projeto</b></a></li>
+      <li><a href="#Discipline"><b>Disciplina</b></a></li>
+      <li><a href="#Enterprise"><b>Empresa</b></a></li>
+      <li><a href="#Members"><b>Membros do Grupo</b></a></li>
+      <li><a href="#Home"><b>Home</b></a></li>
     </ul>
   </nav>
 
-  <header class="relative w-full h-96">
+  <!-- Cabeça Do site -->
+  <header id="Home"class="relative w-full h-96">
     <div class="absolute inset-0 bg-gradient-to-b from-transparent to-white z-10"></div>
-
     <div class="absolute inset-0 bg-[url('./assets/img/BgHeader.png')] bg-cover bg-center z-0"></div>
-
     <div class="absolute inset-0 z-20 flex items-center justify-center">
       <h1 class="text-4xl md:text-5xl font-bold text-gray drop-shadow-lg text-center px-4">
         Bem-vindo ao InfoCode📦
@@ -35,26 +35,42 @@
     </div>
   </header>
 
-  <section id="Discipline">
-    <h2>Discipline</h2>
+  <section id="Project" class="p-20">
+    <div class="flex items-center bg-white rounded-xl shadow-md p-4 space-x-2 w-[900px] mx-auto">
+      <img src="./assets/img/Barcode.png" class="w-64 h-64 rounded-lg object-cover" alt="Imagem do card">
+      <div>
+        <h2 class="text-xl font-bold text-gray-800">Projeto</h2>
+        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cumque ipsa, autem numquam adipisci ipsum ullam vitae velit eveniet accusantium et perspiciatis nobis laborum vero quas expedita. Atque, harum quidem.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="Enterprise" class="p-20">
+    <div class="flex items-center bg-white rounded-xl shadow-md p-4 space-x-2 w-[900px] mx-auto">
+      <div>
+        <h2 class="text-xl font-bold text-gray-800">Empresa</h2>
+        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cumque ipsa, autem numquam adipisci ipsum ullam vitae velit eveniet accusantium et perspiciatis nobis laborum vero quas expedita. Atque, harum quidem.</p>
+      </div>
+      <img src="./assets/img/Farbica de Codigos.png" class="w-64 h-64 rounded-lg object-cover" alt="Imagem do card">
+    </div>
   </section>
 
-  <section id="Enterprise">
-    <h2>Enterprise</h2>
-  </section>
-
-  <section id="Project">
-    <h2>Project</h2>
+  <section id="Discipline" class="p-20">
+    <div class="flex items-center bg-white rounded-xl shadow-md p-4 space-x-2 w-[900px] mx-auto">
+      <img src="./assets/img/Fabrica de projetos.png" class="w-64 h-64 rounded-lg object-cover" alt="Imagem do card">
+      <div>
+        <h2 class="text-xl font-bold text-gray-800">Disciplina</h2>
+        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cumque ipsa, autem numquam adipisci ipsum ullam vitae velit eveniet accusantium et perspiciatis nobis laborum vero quas expedita. Atque, harum quidem.</p>
+      </div>
+    </div>
   </section>
 
   <section id="Members">
     <h2>Members</h2>
 
-
-
-
+    <!--Rodapé de informações do Landing Page -->
   </section>
-  <footer class="bg-lime-500 py-8 px-4 text-black mt-auto">
+  <footer class="bg-cyan-700 py-8 px-4 text-black mt-auto">
     <div class="max-w-6x1 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
       <div>
         <h2 class="text-xl font-bold mb-2">Info Code</h2>
