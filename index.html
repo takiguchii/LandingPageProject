@@ -1,79 +1,89 @@
-tailwind.config.js
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leitor de Códigos </title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leitor de Códigos </title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 
-<body class="bg-#f8f8ec">  
-    
-    <nav class="fixed top-6 left-0 right-0 mx-auto max-w-xl bg-blue-800 text-white rounded-xl shadow-md p-4 flex justify-center z-50">
-        <ul class="flex space-x-6">
-          <li><a href="#"><b>Projeto</b></a></li>
-          <li><a href="#"><b>Disciplina</b></a></li>
-          <li><a href="#"><b>Empresa</b></a></li>
-          <li><a href="#"><b>Membros do Grupo</b></a></li>
-          <li><a href="#"><b>Home</b></a></li>
+<body class="bg-#f8f8ec flex flex-col min-h-screen">
+
+  <nav
+    class="fixed top-6 left-0 right-0 mx-auto max-w-xl bg-blue-800 text-white rounded-xl shadow-md p-4 flex justify-center z-50">
+    <ul class="flex space-x-6">
+      <li><a href="#"><b>Projeto</b></a></li>
+      <li><a href="#"><b>Disciplina</b></a></li>
+      <li><a href="#"><b>Empresa</b></a></li>
+      <li><a href="#"><b>Membros do Grupo</b></a></li>
+      <li><a href="#"><b>Home</b></a></li>
+    </ul>
+  </nav>
+
+  <header class="relative w-full h-96">
+    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-white z-10"></div>
+
+    <div class="absolute inset-0 bg-[url('./assets/img/BgHeader.png')] bg-cover bg-center z-0"></div>
+
+    <div class="absolute inset-0 z-20 flex items-center justify-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray drop-shadow-lg text-center px-4">
+        Bem-vindo ao InfoCode📦
+      </h1>
+    </div>
+  </header>
+
+  <section id="Discipline">
+    <h2>Discipline</h2>
+  </section>
+
+  <section id="Enterprise">
+    <h2>Enterprise</h2>
+  </section>
+
+  <section id="Project">
+    <h2>Project</h2>
+  </section>
+
+  <section id="Members">
+    <h2>Members</h2>
+
+
+
+
+  </section>
+  <footer class="bg-lime-500 py-8 px-4 text-black mt-auto">
+    <div class="max-w-6x1 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <h2 class="text-xl font-bold mb-2">Info Code</h2>
+        <p class="text-sm">© 2025 Todos os direitos reservados.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-4">Links úteis</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:underline">Sobre nós</a></li>
+          <li><a href="#" class="hover:underline">Contato</a></li>
+          <li><a href="#" class="hover:underline">Política de privacidade</a></li>
         </ul>
-      </nav>
-      
-    <header>
-        <h1>Leitor de Códigos de Barras</h1>
-    </header>
-
-    <section id="Discipline">
-        <h2>Discipline</h2>
-    </section>
-
-    <section id="Enterprise">
-        <h2>Enterprise</h2>
-    </section>
-
-    <section id="Project">
-        <h2>Project</h2>
-    </section>
-
-    <section id="Members">
-        <h2>Members</h2>
-
-    </section>
-
-    <footer class="bg-lime-500 py-8 px-4 text-black">
-        <div class="max-w-6x1 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
-                <h2 class="text-xl font-bold mb-2">Info Code</h2>
-                <p class="text-sm">© 2025 Todos os direitos reservados.</p>
-            </div>
-            <div>
-                <h3 class="text-xl font-semibold mb-4">Links úteis</h3>
-                <ul class="space-y-2">
-                  <li><a href="#" class="hover:underline">Sobre nós</a></li>
-                  <li><a href="#" class="hover:underline">Contato</a></li>
-                  <li><a href="#" class="hover:underline">Política de privacidade</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3 class="text-xl font-semibold mb-4">Siga-nos</h3>
-                <div class="flex space-x-4">
-                  <a href="#" class="hover:opacity-80 transition">
-                    <img src="./assets/img/Symbol.png" alt="Facebook" class="w-8 h-8" />
-                  </a>
-                  <a href="#" class="hover:opacity-80 transition">
-                    <img src="./assets/img/Symbol (1).png" alt="Instagram" class="w-8 h-8" />
-                  </a>
-                  <a href="#" class="hover:opacity-80 transition">
-                    <img src="./assets/img/idJxGuURW1_logos.png" alt="X (Twitter)" class="w-8 h-8" />
-                  </a>
-                </div>
-            </div>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-4">Siga-nos</h3>
+        <div class="flex space-x-4">
+          <a href="#" class="hover:opacity-80 transition">
+            <img src="./assets/img/Symbol.png" alt="Facebook" class="w-8 h-8" />
+          </a>
+          <a href="#" class="hover:opacity-80 transition">
+            <img src="./assets/img/Symbol (1).png" alt="Instagram" class="w-8 h-8" />
+          </a>
+          <a href="#" class="hover:opacity-80 transition">
+            <img src="./assets/img/idJxGuURW1_logos.png" alt="X (Twitter)" class="w-8 h-8" />
+          </a>
         </div>
-    </footer>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
