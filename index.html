@@ -7,31 +7,26 @@
   <title>Leitor de Códigos </title>
   <link rel="stylesheet" href="./assets/css/style.css">
   <script src="https://cdn.tailwindcss.com"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 </head>
 
 <body class="bg-#f8f8ec flex flex-col min-h-screen">
 
-  <!-- Barra de Navegação -->
-  <nav
-    class="fixed top-20 left-0 right-0 mx-auto max-w-xl bg-cyan-700 text-white rounded-xl shadow-md p-4 flex justify-center z-50">
-    <ul class="flex space-x-6">
-      <li><a href="#Project"><b>Projeto</b></a></li>
-      <li><a href="#Discipline"><b>Disciplina</b></a></li>
-      <li><a href="#Enterprise"><b>Empresa</b></a></li>
-      <li><a href="#Members"><b>Membros do Grupo</b></a></li>
-      <li><a href="#Home"><b>Home</b></a></li>
-    </ul>
-  </nav>
-
+  
   <!-- Cabeça Do site -->
   <header id="Home"class="relative w-full h-96">
-    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-white z-10"></div>
-    <div class="absolute inset-0 bg-[url('./assets/img/BgHeader.png')] bg-cover bg-center z-0"></div>
-    <div class="absolute inset-0 z-20 flex items-center justify-center">
-      <h1 class="text-4xl md:text-5xl font-bold text-gray drop-shadow-lg text-center px-4">
-        Bem-vindo ao InfoCode📦
-      </h1>
+    <!-- Barra de Navegação -->
+    <nav class="fixed top-20 left-0 right-0 mx-auto max-w-xl bg-cyan-700 text-white rounded-xl shadow-md p-4 flex justify-center z-50">
+      <ul class="flex space-x-6">
+        <li><a href="#Home"><b>Home</b></a></li>
+        <li><a href="#Project"><b>Projeto</b></a></li>
+        <li><a href="#Discipline"><b>Disciplina</b></a></li>
+        <li><a href="#Enterprise"><b>Empresa</b></a></li>
+        <li><a href="#Members"><b>Membros do Grupo</b></a></li>
+      </ul>
+    </nav>
+    <div id="particles-js">
+        <script src="./assets/js/particles.js"></script>
     </div>
   </header>
 
@@ -67,9 +62,9 @@
 
   <section id="Members">
     <h2>Members</h2>
-
-    <!--Rodapé de informações do Landing Page -->
   </section>
+
+  <!--Rodapé de informações do Landing Page -->
   <footer class="bg-cyan-700 py-8 px-4 text-black mt-auto">
     <div class="max-w-6x1 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
       <div>
@@ -100,8 +95,5 @@
       </div>
     </div>
   </footer>
-
 </body>
-
-
 </html>
