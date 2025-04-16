@@ -12,6 +12,7 @@
 
 <body class="bg-#f8f8ec flex flex-col min-h-screen">
 
+  <div id="Home"></div>
   <!-- Cabeçalho Do Site -->
   <header id="home" class="relative w-full">
 
@@ -41,9 +42,10 @@
     </div>
   </header>
 
-  <!-- Nosso Projeto Atual -->
-  <section id="current-project" class="flex flex-col items-center justify-center mt-[10px]">
-    <h3 class="text-[#1b4480] text-3xl font-bold m-[10px]">Nosso Projeto Atual</h3>
+  <!-- Projetos -->
+  <div id="Projects" class="p-10"></div>
+  <h3 class="text-[#1b4480] text-3xl font-bold m-[10px] text-center">Nosso Projeto Atual</h3>
+  <section class="flex flex-col items-center justify-center mt-[10px]">
 
     <!-- Fábrica de Código -->
     <div class="bg-[#bbe24d] w-[1000px] h-[360px] flex flex-col shadow-md rounded-2xl items-center text-center">
@@ -55,7 +57,7 @@
     <!-- InfoCode -->
      <div class="bg-[#1b4480] m-5 w-[1000px] h-[360px] flex flex-col shadow-md rounded-2xl items-center text-center">
        <h4 class="text-2xl font-bold m-2 text-[#f8f8f8]">InfoCode</h4>
-       <img src="./assets/img/tft-logo.png" class="w-[200px] mt-[-25px]">
+       <img src="./assets/img/Infocode.png" class="w-[200px] mt-[-25px]">
        <p class="mt-[-35px] text-[#f8f8f8] font-medium text-lg leading-relaxed">
          O InfoCode é mais do que um simples leitor de código de barras — é uma plataforma que transforma o ato de
          escanear em uma experiência completa de venda e gestão. Ao identificar o produto, o sistema exibe suas
@@ -64,9 +66,41 @@
      </div>
   </section>
 
+  <div id="AboutUs" class="p-10"></div>
+  <h3 class="text-[#1b4480] text-3xl font-bold m-[10px] text-center">Sobre Nós</h3>
+  <section class="bg-[#1b4480] justify-center items-center flex flex-col">
+    <div class="flex items-center bg-[#1b4480] rounded-xl p-4 space-x-2 w-[1500px] mx-auto">
+      <img src="./assets/img/Kennedy.jpg" class="w-64 h-64 rounded-lg object-cover" alt="Imagem do card">
+      <div>
+        <h2 class="text-xl font-bold text-black">Kennedy Miyake | Desenvolvedor Back-End</h2>
+        <div class="text-[#f8f8f8] text-center">
+          <p>"Olá! Eu sou o Kennedy Miyake, tenho 21 anos e sou natural de Marília, interior de São Paulo. Desde pequeno, sempre fui movido pela curiosidade — e foi exatamente essa inquietação que me levou ao mundo da tecnologia. Hoje, sou estudante na UNIMAR (Universidade de Marília), onde venho desenvolvendo minha paixão por programação e por tudo o que envolve o universo tech.</p>
+          <p>Atualmente, atuo como desenvolvedor back-end, com foco em C# com ASP.NET e SQL Server. Mas confesso: minha verdadeira paixão está no desenvolvimento de baixo nível — sim, eu sou do tipo que acha a linguagem C linda! Além disso, tenho um lado meio "professor" dentro de mim — adoro compartilhar conhecimento, liderar projetos e ver ideias ganhando forma com a ajuda de um bom trabalho em equipe (e sim, quase sempre estou à frente como líder nos projetos da faculdade!).</p>
+          <p>Meus hobbies? Quando não estou codando ou imerso em algum novo conceito, estou lendo ou jogando. No futuro, além de seguir na área de desenvolvimento, tenho um objetivo bem claro: ser professor em universidades e ajudar a formar novas gerações de profissionais da tecnologia. Quero deixar minha marca, construir meu nome com propósito e, quem sabe, inspirar amigos, familiares e futuros alunos a também buscarem o melhor de si."</p>
+        </div>
+      </div>
+    </div>
 
+    <div class="flex items-center bg-[#1b4480] rounded-xl p-4 space-x-2 w-[1500px] mx-auto">
+      <div>
+        <h2 class="text-xl font-bold text-black text-right mr-[17px]">Raul Fabiano | Desenvolvedor Front-End</h2>
+        <p class="text-[#f8f8f8] text-center">" Sou Raul Fabiano, desenvolvedor front-end com foco em criar soluções funcionais e interfaces modernas. Tenho experiência com tecnologias de frontend como Vue.js, JavaScript, CSS e Bootstrap, além de uma base sólida no desenvolvimento backend. Acredito na importância de unir técnica, criatividade e aprendizado constante para entregar resultados de qualidade. Fora do ambiente de trabalho, sou apaixonado por animes e jogos, hobbies que estimulam minha visão analítica e meu pensamento estratégico — qualidades que trago também para os projetos em que atuo. Estou sempre em busca de evolução, tanto pessoal quanto profissional, acompanhando de perto as tendências do mercado tech."</p>
+      </div>
+      <img src="./assets/img/Raul.jpg" class="w-64 h-64 rounded-lg object-cover" alt="Imagem do card">
+    </div>
 
-  <section id="Contact" class="mt-[10px] p-20 bg-white">
+    <div class="flex items-center bg-[#1b4480] rounded-xl p-4 space-x-2 w-[1500px] mx-auto">
+      <img src="./assets/img/Takiguchi.jpg" class="w-64 h-64 rounded-lg object-cover" alt="Imagem do card">
+      <div>
+        <h2 class="text-xl font-bold text-black">Alexandre | Desenvolvedor Full-Stack</h2>
+        <p class="text-[#f8f8f8] text-center"> " Sou Alexandre, desenvolvedor backend apaixonado por tecnologia, animes e o universo automotivo. Atuo com foco em soluções robustas e escaláveis, tendo como principais stacks C#, PHP e Python. Tenho experiência com frameworks como Laravel e .NET, além de utilizar Docker para orquestração e padronização de ambientes. Sou uma pessoa dedicada, com perfil analítico e foco em resultados. Acredito no poder da melhoria contínua e estou sempre em busca de novos aprendizados que possam ampliar minha visão técnica e pessoal. Meu compromisso é com a qualidade do código, a eficiência das soluções e o constante aperfeiçoamento profissional. " </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <div id="Contact"></div>
+  <section class="mt-[10px] p-20 bg-white">
     <div class="max-w-xl mx-auto bg-gray-100 rounded-xl shadow-md p-8">
       <h2 class="text-2xl font-bold text-center text-cyan-700 mb-6">Fale Conosco</h2>
       <div class="space-y-4 text-center text-gray-700 text-lg">
@@ -76,42 +110,6 @@
         <p><strong>Telefone 3:</strong> (11) 99876-5432</p>
       </div>
     </div>
-  </section>
-
-  <section id="Members">
-    <section id="Member1" class="p-5">
-      <div class="flex items-center bg-white rounded-xl shadow-md p-4 space-x-2 w-[900px] mx-auto">
-        <img src="./assets/img/User.png" class="w-64 h-64 rounded-lg object-cover" alt="Imagem do card">
-        <div>
-          <h2 class="text-xl font-bold text-gray-800">Membro 1</h2>
-          <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cumque ipsa, autem
-            numquam adipisci ipsum ullam vitae velit eveniet accusantium et perspiciatis nobis laborum vero quas
-            expedita. Atque, harum quidem.</p>
-        </div>
-      </div>
-    </section>
-    <section id="Member2" class="p-5">
-      <div class="flex items-center bg-white rounded-xl shadow-md p-4 space-x-2 w-[900px] mx-auto">
-        <div>
-          <h2 class="text-xl font-bold text-gray-800">Membro 2</h2>
-          <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cumque ipsa, autem
-            numquam adipisci ipsum ullam vitae velit eveniet accusantium et perspiciatis nobis laborum vero quas
-            expedita. Atque, harum quidem.</p>
-        </div>
-        <img src="./assets/img/User.png" class="w-64 h-64 rounded-lg object-cover" alt="Imagem do card">
-      </div>
-    </section>
-    <section id="Member3" class="p-5">
-      <div class="flex items-center bg-white rounded-xl shadow-md p-4 space-x-2 w-[900px] mx-auto">
-        <img src="./assets/img/User.png" class="w-64 h-64 rounded-lg object-cover" alt="Imagem do card">
-        <div>
-          <h2 class="text-xl font-bold text-gray-800">Membro 3</h2>
-          <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cumque ipsa, autem
-            numquam adipisci ipsum ullam vitae velit eveniet accusantium et perspiciatis nobis laborum vero quas
-            expedita. Atque, harum quidem.</p>
-        </div>
-      </div>
-    </section>
   </section>
 
   <!--Rodapé de informações do Landing Page -->
@@ -147,5 +145,4 @@
     </div>
   </footer>
 </body>
-
 </html>
